@@ -1,7 +1,3 @@
-CREATE DATABASE logiedge_db
-
-\c logiedge_db;
-
 CREATE TABLE customers (
   id SERIAL PRIMARY KEY,
   name VARCHAR(150) NOT NULL,
