@@ -34,6 +34,10 @@ DB_PASSWORD=  your postgre password
 DB_NAME=billing_db
 
 
+Now create a schema.sql file in  backend folder by google drive uploaded file and run command 
+psql -U your_username -d logiedge_db -f schema.sql
+
+
 So,at last to start
 npm run dev 
 on two terminal one for backend and one for frontend
